@@ -18,7 +18,6 @@ Arguments:
     -h, --help  Show this help message and exit
 """
 
-import sys
 import requests
 import time
 import argparse
@@ -27,7 +26,6 @@ from typing import List, Dict, Union
 from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree as ET
 import gzip
-import io
 
 SITEMAP_INDICATORS = [
     "sitemap.xml",
